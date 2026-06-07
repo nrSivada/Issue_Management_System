@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts",
-    "generate": "drizzle-kit generate",
-    "migrate": "drizzle-kit migrate"
-  },
+  "dev": "ts-node-dev src/server.ts",
+  "build": "tsc",
+  "start": "node dist/server.js",
+  "generate": "drizzle-kit generate",
+  "migrate": "drizzle-kit migrate"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
