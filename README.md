@@ -24,28 +24,28 @@
 
 ## Setup instructions
 
-### backend
+### Backend:
 
--install dependencies
+-Install dependencies
     -cd backend
     -npm install dependencies
--environment variables
+-Environment variables
     -create a .env file inside backend and refer .env.example file
--run development
+-Run development
     -npm run dev
--build project
+-Build project
     -npm run build
--swagger docs
+-Swagger docs
     -http://localhost:5000/api-docs
 
-### frontend
+### Frontend
 
--install dependencies
+-Install dependencies
     -cd frontend
     -npm install dependencies
--environment variables
+-Environment variables
     -create a .env file inside backend and refer .env.example file
--run development
+-Run development
     -npm run dev
 
 ### Database
