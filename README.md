@@ -9,15 +9,15 @@
 -  swagger API documentation
 
 ## Technologies
-Frontend:
+### Frontend:
 - React
 - TypeScript
 - Tailwind CSS
-Backend:
+### Backend:
 - Node.js
 - TypeScript
 - Express
 - PostgreSQL
 - Drizzle ORM
-AI:
+### AI:
 -Google Gemini
