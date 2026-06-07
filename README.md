@@ -20,35 +20,35 @@
 - PostgreSQL
 - Drizzle ORM
 ### AI:
--Google Gemini
+- Google Gemini
 
 ## Setup instructions
 
-### backend
+### Backend:
 
--install dependencies
-    -cd backend
-    -npm install dependencies
--environment variables
-    -create a .env file inside backend and refer .env.example file
--run development
-    -npm run dev
--build project
-    -npm run build
--swagger docs
-    -http://localhost:5000/api-docs
+- Install dependencies
+    - cd backend
+    - npm install dependencies
+- Environment variables
+    - create a .env file inside backend and refer .env.example file
+- Run development
+    - npm run dev
+- Build project
+    - npm run build
+- Swagger docs
+    - http://localhost:5000/api-docs
 
-### frontend
+### Frontend
 
--install dependencies
-    -cd frontend
-    -npm install dependencies
--environment variables
-    -create a .env file inside backend and refer .env.example file
--run development
-    -npm run dev
+- Install dependencies
+    - cd frontend
+    - npm install dependencies
+- Environment variables
+    - create a .env file inside backend and refer .env.example file
+- Run development
+    - npm run dev
 
 ### Database
--Create Neon DB
--copy connection string
--add to .env
+- Create Neon DB
+- copy connection string
+- add to .env
