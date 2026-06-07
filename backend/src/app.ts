@@ -16,7 +16,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
+      
       "https://issue-management-system-theta.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
