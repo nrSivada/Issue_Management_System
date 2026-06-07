@@ -17,11 +17,11 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      
       "https://issue-management-system-theta.vercel.app"
     ],
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    allowedHeaders: ["Content-Type", "Authorization"]
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true
   })
 );
 
