@@ -17,7 +17,7 @@ app.use(
     origin: (origin, callback) => {
       const allowedOrigins = [
         "http://localhost:5173",
-        "https://issue-management-system-2hyh.onrender.com"
+        "https://issue-management-system-theta.vercel.app/"
       ];
 
       if (!origin || allowedOrigins.includes(origin)) {
